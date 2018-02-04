@@ -14,6 +14,12 @@ public class HomeController {
     HttpServletResponse response;
 
     @RequestMapping("/hongbao")
+    public String index() {
+        return "index";
+    }
+
+
+    @RequestMapping("/hongbao")
     public String luckyMoneny() {
 //        return "index";
         return "redirect:https://qr.alipay.com/c1x00085o4zqzkjkex8qg13";
