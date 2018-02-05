@@ -1,0 +1,1 @@
+mvn clean install -Dmaven.test.skip=true;cp ./target/justdemo-0.0.1-SNAPSHOT.jar ./src/main/jar/demo-0.0.1-SNAPSHOT.jar
